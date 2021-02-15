@@ -1,0 +1,38 @@
+$primary: #25262a;
+$secundary: green;
+$dark: #ffdd18;
+$light: blue;
+$sucess: #0fa;
+$info: #156;
+$warning: #1985;
+$danger: #918;
+
+.coluna-esquerda{
+    height: 868px;
+    width: 400px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    color: white;
+}
+
+
+
+.email{
+    color: white;
+    text-decoration:none !important;
+    cursor: pointer;
+    &:hover {
+    color: white;
+    }
+}
+
+.img-photo{
+    width:140px;
+    height:140px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+@import "~bootstrap/scss/bootstrap.scss";
