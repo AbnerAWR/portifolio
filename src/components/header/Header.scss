@@ -1,0 +1,14 @@
+.app-header {
+    background: #25262a;
+    display: flex;
+    justify-content: center;
+} 
+
+.app-header__logo {
+    background: #25262a;
+    height: 25px;
+    width: 100px;
+}
+
+
+@import "~bootstrap/scss/bootstrap.scss";

@@ -2,7 +2,7 @@ import React from 'react'
 
 import Menu from '../menu'
 
-import './Header.css'
+import './Header.scss'
 
 const Header = () => (
     <header className="app-header">
