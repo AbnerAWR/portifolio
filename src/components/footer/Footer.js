@@ -8,11 +8,11 @@ function  Footer() {
     return (
         <div>
             <footer className="main-footer">
-                <div className="footer-icons">
+                {/* <div className="footer-icons">
                     <a href="https://www.linkedin.com/in/abner-wesley-ribeiro-6731bb171/">
                         <IconsLinkedin />
                     </a>
-                </div>
+                </div> */}
             </footer>
         </div>
     )
