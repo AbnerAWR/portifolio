@@ -1,4 +1,4 @@
-import { Row, Col, Container, Button } from 'react-bootstrap'
+import { Row, Col, Container } from 'react-bootstrap'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 
@@ -12,6 +12,7 @@ function Home() {
             
             <Row>
                 <Col sm={8} className="bg-yellow col-esquerda">
+                    <div className="div-col-esquerda"> 
                     <p className="p-hello">
                         <span>
                             OLÁ! EU SOU
@@ -21,10 +22,11 @@ function Home() {
                         </h1>
                         <p>
                             <span className="span-description">
-                            Estudando de Analise e desenvolvimento de sistemas.
+                            Estudando de Análise e Desenvolvimento de Sistemas.
                             </span>
                         </p>
                         </p>
+                    </div>
 
                     
                 </Col>                
@@ -36,13 +38,19 @@ function Home() {
                         </span>
                     </h2>
                     <div>
+                        <p className="p-description">
+                            Técnico em Análise e Desenvolvimento de Sistemas. <br />
+                            Estiva Gerbi, SP
+                        </p>
+                    </div>
+                    <div>
                         <p>
                             <span>
-                                <a href="mailto:AbnerW_@hotmail.com" className="email">AbnerW_@hotmail.com</a>
+                                <a href="mailto:AbnerW_@hotmail.com" className="a-email">AbnerW_@hotmail.com</a>
                             </span>
                         </p>
                         <p>
-                            <span className="span-number">(19)99912-5210 </span>
+                            <span className="span-number">(19) 99912-5210 </span>
                         </p>
                         <a href="https://www.linkedin.com/in/abner-wesley-ribeiro-6731bb171/">
                         <img src="https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01/7528824071724d12a3e6c31eee0b40d4.webp"></img>
@@ -56,6 +64,12 @@ function Home() {
                         <a href="">
                         <img src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01/81af6121f84c41a5b4391d7d37fce12a.webp"></img>
                         </a>
+
+                        <div >
+                            <a href="file:///E:/portifolio/src/assets/Abner%20Wesley%20Ribeiro%20Curriculo.pdf" className="a-download">
+                                Baixar CV
+                            </a>
+                        </div>
                         
                     </div>
                 </Col>
