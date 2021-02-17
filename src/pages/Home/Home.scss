@@ -7,7 +7,11 @@ $info: #156;
 $warning: #1985;
 $danger: #918;
 
-.coluna-esquerda{
+.col-esquerda {
+    color: rgb(255, 255, 255);
+}
+
+.coluna-direita{
     height: 868px;
     width: 400px;
     text-align: center;
@@ -15,8 +19,6 @@ $danger: #918;
     font-size: 1.2em;
     color: white;
 }
-
-
 
 .email{
     color: white;
@@ -33,6 +35,25 @@ $danger: #918;
     border-radius: 50%;
     margin-bottom: 20px;
 }
+
+.p-hello{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.4em;
+}
+
+.h1-name{
+    line-height: 0.9em;
+    font-size: 70px;
+    font-family: 'Playfair Display', serif;
+}
+
+.span-description {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.03em;
+    font-size: 21px;
+    line-height: 1.5em;
+}
+
 
 
 @import "~bootstrap/scss/bootstrap.scss";

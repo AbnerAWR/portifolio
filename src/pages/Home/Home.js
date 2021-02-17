@@ -11,11 +11,24 @@ function Home() {
         <Container fluid>
             
             <Row>
-                <Col sm={8} className="bg-dark">
-                    <h1 className="teste">Home</h1>
+                <Col sm={8} className="bg-yellow col-esquerda">
+                    <p className="p-hello">
+                        <span>
+                            OLÁ! EU SOU
+                        </span>
+                        <h1 className="h1-name">
+                            Abner Wesley Ribeiro
+                        </h1>
+                        <p>
+                            <span className="span-description">
+                            Estudando de Analise e desenvolvimento de sistemas.
+                            </span>
+                        </p>
+                        </p>
+
                     
                 </Col>                
-                <Col sm={4} className="bg-primary coluna-esquerda">
+                <Col sm={4} className="bg-primary coluna-direita">
                     <img src="https://i.ibb.co/Jj1Yqrt/62721361.jpg" alt="photo" className="img-photo"></img>
                     <h2>
                         <span className="span-name">
