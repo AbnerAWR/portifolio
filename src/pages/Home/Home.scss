@@ -1,19 +1,42 @@
-$primary: #25262a;
-$secundary: green;
-$dark: #ffdd18;
-$light: blue;
-$sucess: #0fa;
-$info: #156;
-$warning: #1985;
-$danger: #918;
+@import "bootstrap/scss/functions"; 
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+$theme-colors: (
+  primary: #e4c82e,
+  secundary: #8DB2BA,
+  dark: #25262a,
+  light: #F9F8F9,
+);
+
+$spacers: (
+    6: $spacer * 4.5,
+    7: $spacer * 7,
+    8: $spacer * 8,
+    9: $spacer * 9,
+    10: $spacer * 20
+);
+
+@import "bootstrap";
+
+// $primary: #25262a;
+// $secundary: green;
+// $dark: #ebcd29;
+// $light: blue;
+// $sucess: #0fa;
+// $info: #156;
+// $warning: #1985;
+// $danger: #918;
+// $yellow: #ffdd18;
 
 .col-esquerda {
     color: rgb(255, 255, 255);
 }
 
 .coluna-direita{
-    height: 868px;
-    width: 400px;
+    
+    // height: 868px;
+    // width: 400px;
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 1.2em;
@@ -26,7 +49,7 @@ $danger: #918;
     text-decoration:none !important;
     cursor: pointer;
     &:hover {
-    color: white;
+        color: white;
     }
 }
 
@@ -51,8 +74,7 @@ $danger: #918;
 }
 
 .a-download{
-    margin-top: 50px;
-    margin-left: 220px;
+    
     display: flex;
     float: none;
     justify-content: center;
@@ -64,7 +86,7 @@ $danger: #918;
     text-decoration:none !important;
     cursor: pointer;
     &:hover {
-    background-color: rgba($color: #ebe72d, $alpha: 1.0);
+        background-color: rgba($color: #ebe72d, $alpha: 1.0);
     }
 }
 
@@ -92,6 +114,13 @@ $danger: #918;
     display: grid;
 }
 
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
 
 
-@import "~bootstrap/scss/bootstrap.scss";
+// @import "~bootstrap/scss/bootstrap.scss";

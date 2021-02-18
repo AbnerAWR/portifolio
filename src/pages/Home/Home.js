@@ -2,18 +2,24 @@ import { Row, Col, Container } from 'react-bootstrap'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 
-import './Home.scss'
+import '../Home/Home.scss'
 
 function Home() {
     return (
         <>
-        <Header />
+        <Row>
+            <Col sm={8} className="bg-dark">
+                <Header />
+            </Col>
+            <Col sm={4} className="bg-dark">
+            </Col>
+        </Row>
         <Container fluid>
             
             <Row>
-                <Col sm={8} className="bg-yellow col-esquerda">
+                <Col sm={8} className="bg-primary col-esquerda text-dark">
                     <div className="div-col-esquerda"> 
-                    <p className="p-hello">
+                    <p className="p-hello fw-bolder">
                         <span>
                             OLÁ! EU SOU
                         </span>
@@ -30,7 +36,7 @@ function Home() {
 
                     
                 </Col>                
-                <Col sm={4} className="bg-primary coluna-direita">
+                <Col sm={4} className="bg-dark coluna-direita p-5 ">
                     <img src="https://i.ibb.co/Jj1Yqrt/62721361.jpg" alt="photo" className="img-photo"></img>
                     <h2>
                         <span className="span-name">
@@ -65,12 +71,41 @@ function Home() {
                         <img src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01/81af6121f84c41a5b4391d7d37fce12a.webp"></img>
                         </a>
 
-                        <div >
-                            <a href="file:///E:/portifolio/src/assets/Abner%20Wesley%20Ribeiro%20Curriculo.pdf" className="a-download">
-                                Baixar CV
+                        <div>
+                            <a download="Abner Wesley Ribeiro CV.pdf" href="data:application/octet-stream;base64," className="a-download mx-auto m-5">
+                            Baixar CV
                             </a>
                         </div>
                         
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col sm={12} className="py-6 px-10 bg-light">
+                    <div name="id-sobre" id="id-sobre">
+                        <div className="text-secundary">
+
+                        <h2 className="font-playfair">
+                            Sobre
+                        </h2>
+
+                            <h4 className="font-quicksand fw-bold">MINHA HISTORIA</h4>
+                        </div>
+
+                        <div>
+                            <p className="font-quicksand">
+                            Oi.
+                            </p>
+                        </div>
+
+
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col sm={12}>
+                    <div>
+                        teste
                     </div>
                 </Col>
             </Row>
