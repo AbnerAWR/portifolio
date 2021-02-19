@@ -7,7 +7,8 @@ $theme-colors: (
   secundary: #8DB2BA,
   dark: #25262a,
   light: #F9F8F9,
-);
+  light-2: #E8FBFF,
+  );
 
 $spacers: (
     6: $spacer * 4.5,
@@ -116,10 +117,14 @@ $spacers: (
 
 .font-playfair {
     font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-style: italic;
 }
 
 .font-quicksand {
     font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+
 }
 
 
