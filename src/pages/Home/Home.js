@@ -146,7 +146,7 @@ function Home() {
                                 </Card.Body>
                                 <Card.Footer>
                                     <small className="text-muted">
-                                        Acessar o site: 
+                                        Acessar o site: teste
                                     </small>
                                 </Card.Footer>
                             </Card>
@@ -163,7 +163,7 @@ function Home() {
                                 </Card.Body>
                                 <Card.Footer>
                                     <small className="text-muted">
-                                         Acessar o site: 
+                                         Acessar o site: teste
                                     </small>
                                 </Card.Footer>
                             </Card>
@@ -180,7 +180,7 @@ function Home() {
                                 </Card.Body>
                                 <Card.Footer>
                                     <small className="text-muted">
-                                        Acessar o site: 
+                                        Acessar o site: teste
                                     </small>
                                 </Card.Footer>
                             </Card>
