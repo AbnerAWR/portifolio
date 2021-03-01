@@ -138,15 +138,21 @@ function Home() {
                                 <Card.Img
                                     variant="top"
                                     src="https://raw.githubusercontent.com/AbnerAWR/Semanaomnistack/master/mobile/src/assets/logo%403x.png"
-                                    className="p-5"
+                                    className="img-card p-3"
                                 />
                                 <Card.Body>
-                                    <Card.Title>Card title</Card.Title>
-                                    <Card.Text>Card 1</Card.Text>
+                                    <Card.Title>Be the hero</Card.Title>
+                                    <Card.Text>
+                                    As organizações não governamentais (ONGs) são entidades privadas da sociedade civil, sem fins lucrativos, 
+                                    cujo propósito é defender e promover uma causa. 
+                                    Essa causa pode ser virtualmente de qualquer tipo: direitos humanos, direitos animais,
+                                    direitos indígenas, gênero, luta contra o racismo, meio ambiente, questões urbanas, imigrantes, entre muitos outros.
+                                    </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
+
                                     <small className="text-muted">
-                                        Acessar o site: teste
+                                        Acessar o site: <a href="https://github.com/AbnerAWR/Semanaomnistack" target="_blank"> Semana Omnistack </a>
                                     </small>
                                 </Card.Footer>
                             </Card>
@@ -155,15 +161,21 @@ function Home() {
                             <Card>
                                 <Card.Img
                                     variant="top"
-                                    src="holder.js/100px160"
+                                    src="https://raw.githubusercontent.com/AbnerAWR/NextLevelWeek04/main/moveit-next/Logo.png"
+                                    className="img-card p-5"
                                 />
                                 <Card.Body>
-                                    <Card.Title>Card title</Card.Title>
-                                    <Card.Text>Card 2</Card.Text>
+                                    <Card.Title>Move it</Card.Title>
+                                    <Card.Text>
+                                    As organizações não governamentais (ONGs) são entidades privadas da sociedade civil, sem fins lucrativos, 
+                                    cujo propósito é defender e promover uma causa. 
+                                    Essa causa pode ser virtualmente de qualquer tipo: direitos humanos, direitos animais,
+                                    direitos indígenas, gênero, luta contra o racismo, meio ambiente, questões urbanas, imigrantes, entre muitos outros.
+                                    </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
                                     <small className="text-muted">
-                                         Acessar o site: teste
+                                         Acessar o site: <a href="https://next-level-week04-abnerawr.vercel.app" target="_blank">Next Level Week 04</a>
                                     </small>
                                 </Card.Footer>
                             </Card>
@@ -172,15 +184,22 @@ function Home() {
                             <Card>
                                 <Card.Img
                                     variant="top"
-                                    src="holder.js/100px160"
+                                    src="https://raw.githubusercontent.com/AbnerAWR/dsdeliver-sds2/main/front-web/src/Logo.png"
+                                    className="img-card p-5"
                                 />
                                 <Card.Body>
-                                    <Card.Title>Card title</Card.Title>
-                                    <Card.Text>Card 3</Card.Text>
+                                    <Card.Title>Ds Delivery</Card.Title>
+                                    <Card.Text>
+                                    As organizações não governamentais (ONGs) são entidades privadas da sociedade civil, sem fins lucrativos, 
+                                    cujo propósito é defender e promover uma causa. 
+                                    Essa causa pode ser virtualmente de qualquer tipo: direitos humanos, direitos animais,
+                                    direitos indígenas, gênero, luta contra o racismo, meio ambiente, questões urbanas, imigrantes, entre muitos outros.
+                                    </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
                                     <small className="text-muted">
-                                        Acessar o site: teste
+                                        Acessar o site: <a href="https://abner-wesley-ribeiro-sds2.netlify.app" target="_blank">Ds Delivery</a>
+
                                     </small>
                                 </Card.Footer>
                             </Card>
