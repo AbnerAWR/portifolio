@@ -13,23 +13,32 @@ function Home() {
                 </Col>
                 <Col sm={4} className="bg-dark"></Col>
             </Row>
-            <Container fluid>
+            
                 <Row>
                     <Col sm={8} className="bg-primary col-esquerda text-dark">
-                        <div className="div-col-esquerda">
-                            <p className="p-hello fw-bolder">
-                                <span>OLÁ! EU SOU</span>
-                                <h1 className="h1-name">
-                                    Abner Wesley Ribeiro
-                                </h1>
-                                <p>
-                                    <span className="span-description">
-                                        Estudando de Análise e Desenvolvimento
-                                        de Sistemas.
-                                    </span>
-                                </p>
-                            </p>
-                        </div>
+                        <Row>
+                            <Col sm={1}>
+
+                            </Col>
+
+                            <Col sm={11}>
+                                <div className="align-middle div-name pt-10 ps-3">
+                                    <p className="p-hello fw-bolder">
+                                        <span>OLÁ! EU SOU</span>
+                                        <h1 className="h1-name">
+                                            Abner Wesley Ribeiro
+                                        </h1>
+                                        <p>
+                                            <span className="span-description">
+                                                Estudando de Análise e Desenvolvimento
+                                                de Sistemas.
+                                            </span>
+                                        </p>
+                                    </p>
+                                </div>
+
+                            </Col>
+                        </Row>
                     </Col>
                     <Col sm={4} className="bg-dark coluna-direita p-5 ">
                         <img
@@ -91,8 +100,8 @@ function Home() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col sm={12} className="py-6 px-10 bg-light-2">
-                        <div name="id-sobre" id="id-sobre">
+                    <Col sm={12} className="div-padding py-6 bg-light-2">
+                        <div>
                             <div className="text-secundary">
                                 <span className="font-playfair">Sobre</span>
                                 <br />
@@ -108,8 +117,8 @@ function Home() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col sm={12} className="py-6 px-10 bg-light">
-                        <div name="id-sobre" id="id-sobre">
+                    <Col sm={12} className="div-padding py-6 bg-light">
+                        <div>
                             <div className="text-secundary">
                                 <span className="font-playfair">Formação</span>
                                 <br />
@@ -133,7 +142,7 @@ function Home() {
 
                 <Container>
                     <Row>
-                        <Col className="container-fluid mt-4">
+                        <Col className="mt-4">
                             <Card>
                                 <Card.Img
                                     variant="top"
@@ -157,7 +166,7 @@ function Home() {
                                 </Card.Footer>
                             </Card>
                         </Col>
-                        <Col className="container-fluid mt-4">
+                        <Col className=" mt-4">
                             <Card>
                                 <Card.Img
                                     variant="top"
@@ -180,7 +189,7 @@ function Home() {
                                 </Card.Footer>
                             </Card>
                         </Col>
-                        <Col className="container-fluid mt-4">
+                        <Col className=" mt-4">
                             <Card>
                                 <Card.Img
                                     variant="top"
@@ -206,7 +215,7 @@ function Home() {
                         </Col>
                     </Row>
                 </Container>
-            </Container>
+            
             <Footer />
         </>
     );
