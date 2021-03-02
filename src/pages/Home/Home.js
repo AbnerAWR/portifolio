@@ -101,7 +101,7 @@ function Home() {
                 </Row>
                 <Row>
                     <Col sm={12} className="div-padding py-6 bg-light-2">
-                        <div>
+                        <div name="id-sobre" id="id-sobre">
                             <div className="text-secundary">
                                 <span className="font-playfair">Sobre</span>
                                 <br />
@@ -118,7 +118,7 @@ function Home() {
                 </Row>
                 <Row>
                     <Col sm={12} className="div-padding py-6 bg-light">
-                        <div>
+                        <div name="id-sobre" id="id-sobre">
                             <div className="text-secundary">
                                 <span className="font-playfair">Formação</span>
                                 <br />
