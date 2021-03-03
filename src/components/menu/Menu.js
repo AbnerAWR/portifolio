@@ -7,17 +7,17 @@ const Menu = () => (
         <ul className="app-menu__list">
             <li className="app-menu__item">
                 <a href="#id-sobre" className="app-menu__link">
-                    Home
+                    Início
                 </a>
             </li>
             <li className="app-menu__item">
                 <a href="#id-sobre" className="app-menu__link">
-                    Contact
+                    Sobre
                 </a>
             </li>
             <li className="app-menu__item">
                 <a href="#id-sobre" className="app-menu__link">
-                    About
+                    Projetos
                 </a>
             </li>
         </ul>
