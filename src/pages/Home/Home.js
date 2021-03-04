@@ -177,11 +177,16 @@ function Home() {
                    
                         <Card>
                             <div className="img-holder bg-light-2">
+                            <a 
+                            href="https://github.com/AbnerAWR/Semanaomnistack"
+                            target="_blank"
+                            >
                             <Card.Img
                                 variant="top"
                                 src="https://raw.githubusercontent.com/AbnerAWR/Semanaomnistack/master/mobile/src/assets/logo%403x.png"
                                 className="img-card p-2 bg-light-2"
                             />
+                            </a>
                             </div>
                             <Card.Body>
                                 <Card.Title>Be the hero</Card.Title>
@@ -214,24 +219,23 @@ function Home() {
                     <Col className=" mt-4">
                         <Card >
                             <div className="img-holder bg-light-2">
+                            <a
+                                href="https://next-level-week04-abnerawr.vercel.app"
+                                target="_blank"
+                            >
                             <Card.Img
                                 variant="top"
                                 src="https://raw.githubusercontent.com/AbnerAWR/NextLevelWeek04/main/moveit-next/Logo.png"
                                 className="img-card p-2 bg-light-2"
                             />
+                            </a>
                             </div>
                             <Card.Body>
                                 <Card.Title>Move it</Card.Title>
                                 <Card.Text>
                                     As organizações não governamentais (ONGs)
                                     são entidades privadas da sociedade civil,
-                                    sem fins lucrativos, cujo propósito é
-                                    defender e promover uma causa. Essa causa
-                                    pode ser virtualmente de qualquer tipo:
-                                    direitos humanos, direitos animais, direitos
-                                    indígenas, gênero, luta contra o racismo,
-                                    meio ambiente, questões urbanas, imigrantes,
-                                    entre muitos outros.
+                                   
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
@@ -250,11 +254,16 @@ function Home() {
                     <Col className="fluid mt-4">
                         <Card>
                         <div className="img-holder bg-light-2">
+                        <a
+                            href="https://abner-wesley-ribeiro-sds2.netlify.app"
+                            target="_blank"
+                        >
                             <Card.Img
                                 variant="top"
                                 src="https://raw.githubusercontent.com/AbnerAWR/dsdeliver-sds2/main/front-web/src/Logo.png"
                                 className="img-card p-2"
-                            />
+                            />                                  
+                        </a>
                         </div>
                             <Card.Body>
                                 <Card.Title>Ds Delivery</Card.Title>
@@ -284,6 +293,14 @@ function Home() {
                         </Card>
                     </Col>
                 </Row>
+
+                <Row>
+                    <Col>
+
+                    
+                    </Col>
+                </Row>
+
             </Container>
 
             <Footer />
