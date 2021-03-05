@@ -163,7 +163,7 @@ function Home() {
                 <Row className="py-4 ">
                         <div>
                             <div className="text-secundary">
-                                <span className="font-playfair text-dark">
+                                <span className="font-playfair text-dark" name="id-projeto" id="id-projeto">
                                     Projetos
                                 </span>
                                 <br />
@@ -294,10 +294,127 @@ function Home() {
                     </Col>
                 </Row>
 
-                <Row>
-                    <Col>
 
-                    
+                <Row >
+                
+                    <Col className="mt-4">
+                   
+                        <Card>
+                            <div className="img-holder bg-light-2">
+                            <a 
+                            href="https://projeto-quiz.vercel.app"
+                            target="_blank"
+                            >
+                            <Card.Img
+                                variant="top"
+                                src="https://raw.githubusercontent.com/AbnerAWR/projetoQuiz/main/Quiz.png"
+                                className="img-card p-2 bg-light-2"
+                            />
+                            </a>
+                            </div>
+                            <Card.Body>
+                                <Card.Title>Projeto Quiz</Card.Title>
+                                <Card.Text>
+                                    As organizações não governamentais (ONGs)
+                                    são entidades privadas da sociedade civil,
+                                    sem fins lucrativos, cujo propósito é
+                                    defender e promover uma causa. Essa causa
+                                    pode ser virtualmente de qualquer tipo:
+                                    direitos humanos, direitos animais, direitos
+                                    indígenas, gênero, luta contra o racismo,
+                                    meio ambiente, questões urbanas, imigrantes,
+                                    entre muitos outros.
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <small className="text-muted">
+                                    Acessar o site:{" "}
+                                    <a
+                                        href="https://projeto-quiz.vercel.app"
+                                        target="_blank"
+                                    >
+                                        {" "}
+                                        Projeto Quiz{" "}
+                                    </a>
+                                </small>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col className=" mt-4">
+                        <Card >
+                            <div className="img-holder bg-light-2">
+                            <a
+                                href=""
+                                target="_blank"
+                            >
+                            <Card.Img
+                                variant="top"
+                                src=""
+                                className="img-card p-2 bg-light-2"
+                            />
+                            </a>
+                            </div>
+                            <Card.Body>
+                                <Card.Title>Projeto Conhecimento (Vue)</Card.Title>
+                                <Card.Text>
+                                    As organizações não governamentais (ONGs)
+                                    são entidades privadas da sociedade civil,
+                                   
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <small className="text-muted">
+                                    Acessar o site:{" "}
+                                    <a
+                                        href="https://github.com/AbnerAWR/projetoConhecimento"
+                                        target="_blank"
+                                    >
+                                        Projeto Conhecimento
+                                    </a>
+                                </small>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col className="fluid mt-4">
+                        <Card>
+                        <div className="img-holder bg-light-2">
+                        <a
+                            href="https://abner-wesley-ribeiro-sds2.netlify.app"
+                            target="_blank"
+                        >
+                            <Card.Img
+                                variant="top"
+                                src="https://raw.githubusercontent.com/AbnerAWR/dsdeliver-sds2/main/front-web/src/Logo.png"
+                                className="img-card p-2"
+                            />                                  
+                        </a>
+                        </div>
+                            <Card.Body>
+                                <Card.Title>Ds Delivery</Card.Title>
+                                <Card.Text>
+                                    As organizações não governamentais (ONGs)
+                                    são entidades privadas da sociedade civil,
+                                    sem fins lucrativos, cujo propósito é
+                                    defender e promover uma causa. Essa causa
+                                    pode ser virtualmente de qualquer tipo:
+                                    direitos humanos, direitos animais, direitos
+                                    indígenas, gênero, luta contra o racismo,
+                                    meio ambiente, questões urbanas, imigrantes,
+                                    entre muitos outros.
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <small className="text-muted">
+                                    Acessar o site:{" "}
+                                    <a
+                                        href="https://abner-wesley-ribeiro-sds2.netlify.app"
+                                        target="_blank"
+                                    >
+                                        Ds Delivery
+                                    </a>
+                                </small>
+                            </Card.Footer>
+                        </Card>
                     </Col>
                 </Row>
 
