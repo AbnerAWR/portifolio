@@ -16,7 +16,7 @@ const Menu = () => (
                 </a>
             </li>
             <li className="app-menu__item">
-                <a href="#id-sobre" className="app-menu__link">
+                <a href="#id-projeto" className="app-menu__link">
                     Projetos
                 </a>
             </li>
