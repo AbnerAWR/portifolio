@@ -71,4 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 #Dia 1: Ultimate Guide to Game Development 2019 - Curso Unity
-#Dia 2:
+#Dia 2: Ultimate Guide to Game Development 2019 - Curso Unity
